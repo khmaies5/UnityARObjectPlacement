@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
+using UnityEngine.XR.ARSubsystems;
 
 [RequireComponent(typeof(ARRaycastManager))]
 public class PlacementController : MonoBehaviour
@@ -13,10 +14,9 @@ public class PlacementController : MonoBehaviour
     GameObject Temple;
     private ARSessionOrigin aRSessionOrigin;
     public ARPlaneManager ArPlane;
-
+    public GameObject pointerObject;
     [SerializeField]
     private ARPlaneManager arPlaneManager;
-
     public GameObject PlacedPrefab
     {
 
@@ -24,7 +24,7 @@ public class PlacementController : MonoBehaviour
         {
             if (placedPrefab == null)
             {
-                placedPrefab = Instantiate(placedPrefab, Vector3.zero, new Quaternion(-90, 180, 0, 0));
+                placedPrefab = Instantiate(placedPrefab, Vector3.zero, new Quaternion(0, 0, 0, 0));//new Quaternion(-90, 180, 0, 0));
 
             }
             return placedPrefab;
@@ -50,7 +50,12 @@ public class PlacementController : MonoBehaviour
 
 }
 
-bool TryGetTouchPosition(out Vector2 touchPosition)
+    private void Start()
+    {
+        pointerObject.SetActive(false);
+    }
+
+    bool TryGetTouchPosition(out Vector2 touchPosition)
     {
         if (Input.touchCount > 0)
         {
@@ -84,9 +89,26 @@ bool TryGetTouchPosition(out Vector2 touchPosition)
 
         if (Input.GetKeyDown(KeyCode.C))
         {
-            selectedObject = Instantiate(placedPrefab, Vector3.zero + new Vector3(0, 0, 5), new Quaternion(0, 180, 0, 0));
+            selectedObject = Instantiate(placedPrefab, Vector3.zero + new Vector3(0, 0, 0), new Quaternion(0, 180, 0, 0));//new Quaternion(0, 180, 0, 0));
         }
+        if ((selectedObject == null) && ArPlane.trackables.count > 0)
+        {
+            List<ARRaycastHit> hitPoint = new List<ARRaycastHit>();
+            //Debug.Log("raycasting placement#############");
+            arRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hitPoint, TrackableType.Planes);
+            if (hitPoint.Count > 0)
+            {
+                Debug.Log("hitPoint " + hitPoint.Count);
 
+                pointerObject.transform.position = hitPoint[0].pose.position - new Vector3(0, 5, 0);
+                // pointerObject.transform.transform.rotation = hitPoint[0].pose.rotation;
+                if (!pointerObject.activeInHierarchy)
+                {
+                    pointerObject.SetActive(true);
+                }
+
+            }
+        }
 
         if (!TryGetTouchPosition(out Vector2 touchPosition))
             return;
@@ -100,11 +122,13 @@ bool TryGetTouchPosition(out Vector2 touchPosition)
                 {
                     plan.gameObject.SetActive(false);
                 }
-                selectedObject = Instantiate(placedPrefab, hitPose.position + new Vector3(0,0,5), new Quaternion(0, 180, 0, 0));
+                selectedObject = Instantiate(placedPrefab, pointerObject.transform.position - new Vector3(0, 5 ,0), new Quaternion(0, 180, 0, 0));
                 DeactivatePlaneDetection();
 
                 isPlaced = true;
             }
+
+          
         }
 
 

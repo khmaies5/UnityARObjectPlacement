@@ -1,0 +1,230 @@
+fileFormatVersion: 2
+guid: 844e25be2dfe7414587e846562301b1c
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass clear
+    second: {fileID: 2100000, guid: 4be6eacf12ac382448455fa9a4a62742, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #116
+    second: {fileID: 2100000, guid: 2417b6d9ab87b2c44b7777ade5bf32e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #58
+    second: {fileID: 2100000, guid: d7087d3dca6957348bb293a0933befb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal Spoon
+    second: {fileID: 2100000, guid: 3b84bfa6c96879e44a50b90ca97560a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Porcelan
+    second: {fileID: 2100000, guid: 35dabf27dd453714c83cde4a0f455130, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodFine15_HIRES
+    second: {fileID: 2100000, guid: aced741e68885534b8ce6ef78b49a7c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sdad
+    second: {fileID: 2100000, guid: 992fd271d079afe44b62850eab9e4ca2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray 02 - Default
+    second: {fileID: 2100000, guid: 5e05609aa9e709b418a33c6e2772f2e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray 02 - Defaultwewe
+    second: {fileID: 2100000, guid: ad3645f098873fd47b9f93e52487d1cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray 05 - Default
+    second: {fileID: 2100000, guid: 6968393c729d9084cb1dd19696555c2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray 06 - Default
+    second: {fileID: 2100000, guid: 1756601c161940c4a8c884ebd8dd2c66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray 09 - Default
+    second: {fileID: 2100000, guid: 45daec047cc2831469533e222413b059, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray 10 - Default
+    second: {fileID: 2100000, guid: c1f759f06338b6e439d93e51ddfeec0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray 13 - Default
+    second: {fileID: 2100000, guid: 0fcb5b79a58216a4280144fa80a6bcd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray 16 - Default
+    second: {fileID: 2100000, guid: 8ac815d3cd8f58449af8e2952b433893, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray 19 - Default
+    second: {fileID: 2100000, guid: 8fe74ba5ef689324d829cd21774c08e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Black
+    second: {fileID: 2100000, guid: 2d17ffdf3e3c7564dba4d7d4d3a106dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Blue_A
+    second: {fileID: 2100000, guid: b2295d4aca1a4174d8e2a577e8e78539, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Blue_P
+    second: {fileID: 2100000, guid: d135b7b0a5e0011469922de50b8877b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Material #1
+    second: {fileID: 2100000, guid: 42090df235372914cbdd21715957b885, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Material #1031
+    second: {fileID: 2100000, guid: 9f5b07a7ef9f09c49a8cf74ff3d8d117, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Material #30
+    second: {fileID: 2100000, guid: 655d993c8b08c06498370093966f4f78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "vray \xCA\xF0\xE0\xF1\xED \xEB\xE0\xEC\xEF\xEE\xF7\xEA\xE8"
+    second: {fileID: 2100000, guid: 397ce34d5a2bbc94c944f2d3543e6e6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "vray \xD1\xE5\xF0\xFB\xE9"
+    second: {fileID: 2100000, guid: df27ff9130f96034a9b71c7ac64e3d80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "vray \xD7\xE5\xF0\xED\xFB\xE9"
+    second: {fileID: 2100000, guid: 7f0f3c8bbc7a9bc45bd20f841ef9d11f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "vray \xD7\xE5\xF0\xED\xFB\xE9 \xEF\xEB\xE0\xF1\xF2\xE8\xEA"
+    second: {fileID: 2100000, guid: 62cc55d18556b434c8c60dd74c8d487e, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
