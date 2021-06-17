@@ -476,10 +476,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90dbbbb8ce1000348807c7286e601ab9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placedPrefab: {fileID: 266606946516286077, guid: 8354f85c15357cf4aa41131d32841338,
+  placedPrefab: {fileID: 4790568533237894714, guid: b3ec669a80bf2f742971da11d45de6ee,
     type: 3}
   ArPlane: {fileID: 692460535}
-  pointerObject: {fileID: 2141246775}
+  pointerObject: {fileID: 695838700}
   arPlaneManager: {fileID: 692460535}
 --- !u!114 &692460534
 MonoBehaviour:
@@ -508,6 +508,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PlanePrefab: {fileID: 257597905}
   m_DetectionMode: 1
+--- !u!1 &695838700 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 695838700, guid: 7eb497ec12164484baf809769cf85b7f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2102134099}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &711708177
 GameObject:
   m_ObjectHideFlags: 0
@@ -995,10 +1001,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 711708178}
   m_HandleRect: {fileID: 644233795}
   m_Direction: 0
-  m_MinValue: 7
-  m_MaxValue: 55
+  m_MinValue: 1
+  m_MaxValue: 10
   m_WholeNumbers: 0
-  m_Value: 7
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -1521,12 +1527,12 @@ PrefabInstance:
     - target: {fileID: 5310770983243297490, guid: 7eb497ec12164484baf809769cf85b7f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5310770983243297490, guid: 7eb497ec12164484baf809769cf85b7f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -4.09
       objectReference: {fileID: 0}
     - target: {fileID: 5310770983243297490, guid: 7eb497ec12164484baf809769cf85b7f,
         type: 3}
@@ -1580,9 +1586,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7eb497ec12164484baf809769cf85b7f, type: 3}
---- !u!1 &2141246775 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5310770983243297580, guid: 7eb497ec12164484baf809769cf85b7f,
-    type: 3}
-  m_PrefabInstance: {fileID: 2102134099}
-  m_PrefabAsset: {fileID: 0}
